@@ -9,7 +9,7 @@
 [[rules]]
   name = "images"
   target_directory = "Images"
-  extensions = ["jpg", "png", "gif", "psd"]
+  extensions = ["jpg", "png", "gif","jpeg"]
 
 [[rules]]
   name = "videos"
