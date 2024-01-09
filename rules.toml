@@ -1,0 +1,27 @@
+# File Organizer Configuration
+
+# Define rules for file organization
+[[rules]]
+  name = "documents"
+  target_directory = "Documents"
+  extensions = ["doc", "docx", "pdf"]
+
+[[rules]]
+  name = "images"
+  target_directory = "Images"
+  extensions = ["jpg", "png", "gif", "psd"]
+
+[[rules]]
+  name = "videos"
+  target_directory = "Videos"
+  extensions = ["mp4", "avi", "mkv"]
+
+[[rules]]
+  name = "archives"
+  target_directory = "Archives"
+  extensions = ["zip", "tar", "gz", "rar"]
+# Define default values for optional parameters
+[defaults]
+  verbose = false
+  log_file = "organizer.log"
+
